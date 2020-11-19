@@ -90,6 +90,7 @@ main {
     min-height: 100vh;
 }
 
+
 .data_hero {
     max-width: 632px;
     margin-right: auto;
@@ -279,4 +280,267 @@ main {
 .banner_mandalorian img {
     display: block;
     width: 100%;
+}
+
+.original_disney_plus,
+.diversao_sem_limites {
+    position: relative;
+    overflow: hidden;
+}
+
+.content_disney_plus,
+.content_diversao {
+    position: relative;
+    padding: 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: 1;
+    box-sizing: initial;
+}
+
+.data_original_disney,
+.data_diversao {
+    display: block;
+    z-index: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.data_original_disney h2,
+.data_diversao h2 {
+    font-size: 42px;
+    margin: 0 0 24px;
+    line-height: 1.2;
+    display: block;
+}
+
+.data_original_disney p,
+.data_diversao p {
+    color: hsla(0,0%,75.3%,.8);
+    font-size: 20px;
+    margin: 0 0 24px;
+    line-height: 1.5;
+    display: block;
+}
+
+.display_movies_series_animations {
+    margin: 0 -12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article_disney {
+    width: 33.33%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 12px;
+    transition: opacity 1s;
+}
+
+.article_disney img {
+    border-radius: 4px;
+    transition: transform 0.4s;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.rei_leao {
+    position: relative;
+    overflow: hidden;
+}
+
+.content_rei_leao {
+    z-index: 1;
+    padding: 80px;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: initial;
+}
+
+.data_rei_leao {
+    position: absolute;
+    z-index: 3;
+    left: 52%;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.data_rei_leao h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 0 0 24px;
+    display: block;
+}
+
+.data_rei_leao p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 24px;
+    display: block;
+}
+
+.background_rei_leao {
+    width: auto;
+    position: relative;
+    z-index: 2;
+    display: block;
+    box-sizing: inherit;
+}
+
+.background_rei_leao img {
+    display: block;
+    width: 100%;
+}
+
+.multi_devices {
+    position: relative;
+    overflow: hidden;
+}
+
+.content_devices {
+    z-index: 1;
+    padding: 80px;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: initial;
+}
+
+.data_device {
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.data_devices h2 {
+    margin: 0 0 24px;
+    font-size: 42px;
+    line-height: 1.2;
+    display: block;
+    text-align: center;
+}
+
+.display_devices {
+    margin: 0 -12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display_devices article {
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 12px;
+    transition: opcity 1s;
+    text-align: center;
+}
+
+.display_devices article img {
+    transition: transform 0.4s;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.display_devices article h3 {
+    font-size: 22px;
+    margin: 0 0 24px;
+    margin-top: 24px;
+}
+
+.display_devices article p {
+    margin-bottom: 4px;
+    font-size: 20px;
+    color: hsla(0,0%,75.3%,.8);
+}
+
+.footer_disney {
+    position: relative;
+    z-index: 1;
+    padding: 26px 8px;
+    text-align: center;
+}
+
+.content_footer {
+    margin: 0 auto;
+}
+
+.logo_disney_footer {
+    width: 80px;
+    margin-bottom: 4px;
+    font-size: 0;
+    display: inline-block;
+}
+
+.logo_disney_footer img {
+    display: block;
+    width: 100%;
+}
+
+.links_footer {
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.links_footer span {
+    position: relative;
+    display: inline-block;
+    opacity: 0.6;
+    margin: 0 8px;
+}
+
+.links_footer span select {
+    padding: 0 26px;
+    z-index: 1;
+    border: none;
+    display: inline-block;
+    height: 34px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: center;
+    text-align-last: center;
+}
+
+.links_footer span:hover {
+    opacity: 1;
+}
+
+.links_footer span select:hover {
+    text-decoration: underline;
+}
+
+.links_footer span select option {
+    color: #111;
+}
+
+.links_footer a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+    color: hsla(0,0%,75.3%,.8);
+    font-size: 12px;
+}
+
+.links_footer a:hover {
+    color: #f9f9f9;
+}
+
+.copyright {
+    font-size: 12px;
+    color: hsla(0,0%,75.3%,.8);
+    margin: 0 0 24px;
+}
+
+.footer_description {
+    max-width: 1024px;
+    margin: 0 auto 16px;
+    font-size: 12px;
+    color: hsla(0,0%,75.3%,.8);
 }
