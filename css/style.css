@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 body, button, input, select {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Lato';
 }
 
 section {
@@ -382,6 +382,7 @@ main {
     line-height: 1.5;
     margin: 0 0 24px;
     display: block;
+    color: hsla(0,0%,75.3%,.8);
 }
 
 .background_rei_leao {

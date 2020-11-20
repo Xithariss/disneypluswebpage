@@ -1,0 +1,102 @@
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .content_hero {
+        padding: 80px 35px;
+    }
+
+    .data_hero {
+        margin-top: 5%;
+    }
+
+    .data_hero h1 {
+        font-size: 28px;
+    }
+
+    .data_hero .logos {
+        padding: 0 35px;
+    }
+    .data_hero .logos img {
+        max-width: 500px;
+    }
+
+    .section_plans .plan_normal .description_plan h3,
+    .section_plans .plan_annual .description_plan h3 {
+        font-size: 26px;
+    }
+    
+    .section_plans .plan_normal .description_plan p,
+    .section_plans .plan_annual .description_plan p {
+        margin-bottom: 16px;
+    }
+
+    .button_signature a {
+        padding: 14px 12px
+    }
+
+    .offer {
+        font-size: 10px;
+    }
+
+    .content_mandalorian {
+        padding: 50px 35px;
+    }
+
+    .data_mandalorian h2 {
+        font-size: 28px;
+    }
+    .data_mandalorian p {
+        font-size: 18px;
+    }
+
+    .content_disney_plus {
+        padding: 50px 35px;
+    }
+
+    .data_original_disney h2 {
+        font-size: 28px;
+    }
+
+    .data_original_disney p {
+        font-size: 19px;
+        box-sizing: initial;
+    }
+
+    .content_rei_leao {
+        padding: 50px 35px;
+    }
+
+    .data_rei_leao h2 {
+        font-size: 28px;
+    }
+
+    .data_rei_leao p {
+        font-size: 18px;
+    }
+
+    .content_diversao {
+        padding: 50px 35px;
+    }
+
+    .data_diversao h2 {
+        font-size: 28px;
+    }
+
+    .data_diversao p {
+        font-size: 18px;
+    }
+
+    .content_devices {
+        padding: 50px 35px;
+    }
+
+    .data_devices h2 {
+        font-size: 28px;
+    }
+
+    .display_devices article h3 {
+        font-size: 22px;
+    }
+
+    .display_devices article p {
+        font-size: 20px;
+    }
+}

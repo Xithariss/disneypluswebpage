@@ -1,0 +1,114 @@
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    .div_hero {
+        text-align: center;
+    }
+
+    .content_hero {
+        padding: 80px 30px;
+        min-height: 70vh;
+    }
+
+    .data_hero {
+        max-width: 632px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 28%;
+    }
+
+    .data_hero img {
+        margin-bottom: 10px;
+    }
+
+    .data_hero h1 {
+        display: inline-block;
+        margin: 0 0 10px;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .data_hero h1 span {
+        display: inline-block;
+    }
+
+    .data_hero .logos {
+        display: none;
+        height: 0;
+    }
+
+    .section_plans {
+        display: block;
+        margin: 0 auto 20px;
+        max-width: 340px;
+    }
+
+    .section_plans .plan_normal,
+    .section_plans .plan_annual {
+        width: 100%;
+        max-width: none;
+        position: relative;
+        display: block;
+        padding: 15px 0;
+    }
+
+    .section_plans .plan_normal {
+        padding-top: 0;
+        border-bottom: 2px solid hsla(0,0%,100%,.2);
+    }
+
+    .section_plans .plan_normal h3,
+    .section_plans .plan_annual h3 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .section_plans .plan_normal p,
+    .section_plans .plan_annual p {
+        margin-bottom: 5px;
+    }
+
+    .button_signature a {
+        font-size: 15px;
+        padding: 14px 16px;
+    }
+
+    .offer {
+        font-size: 10px;
+        margin: 0 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .background_hero {
+        background-image: url('../img/bg_small.jpg');
+    }
+
+    .content_mandalorian {
+        flex-direction: column-reverse;
+        padding: 45px 30px;
+    }
+
+    .data_mandalorian {
+        width: 100%;
+    }
+
+    .data_mandalorian h2 {
+        margin: 0 0 16px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .data_mandalorian p {
+        margin: 0 0 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .banner_mandalorian {
+        width: 100%;
+        box-sizing: initial;
+    }
+}
